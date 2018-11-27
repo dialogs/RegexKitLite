@@ -15,8 +15,7 @@ s.homepage     = "http://regexkit.sourceforge.net/RegexKitLite/"
 s.license      = "MIT"
 s.author       = { "dillidon" => "regexkitlite@gmail.com" }
 s.platform     = :ios, '10.0'
-s.swift_version = '4.0'
-s.source       = { :https://github.com/dialogs/RegexKitLite.git", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/dialogs/RegexKitLite.git", :tag => "#{s.version}" }
 s.source_files  = "**/RegexKitLite.{h,m}"
 
 end
